@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Created by Pedro + Luiz  -->
+    
+    
+    <!-- Definitions of Main Activity or HOme -->
+    <string name="app_name">TradersGem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="callGraph">Call Graph! </string>
+    <string name="callWatchList">Call Watchlist</string>
+    
+    <!-- Home Screen Strings -->
+    <string name="bt_HM_MyStocks">Portfolio</string>
+    <string name="bt_HM_WatchStocks">Watch List</string>
+    <string name="bt_HM_BuyStocks">Buy Stocks</string>
+    <string name="bt_HM_SellStocks">Sell Stocks</string>
+    <string name="bt_HM_Statistics">Statistics</string>
+    
+    <!-- Login Screen Strings -->
+    <string name="tv_Heading">Current User Login</string>
+    <string name="tv_UserName">User Name</string>
+    <string name="tv_Password">Password</string>
+    <string name="tv_EnterUserName">Enter User Name</string>
+    <string name="tv_EnterPassword">Enter Password</string>
+    <string name="tv_ConfirmPassword">Confirm Password</string>
+    <string name="bt_Login">Login</string>
+    <string name="bt_Cancel">Cancel</string>
+    <string name="bt_NewUser"><u>Create New Account</u></string>
+    
+    <!-- New User Screen Strings -->
+    <string name="tv_NU_Heading">New User Account</string>
+    <string name="tv_NU_UserName">User Name</string>
+    <string name="tv_NU_Password">Password</string>
+    <string name="tv_NU_ConfPassword">Confirm Pass</string>
+    <string name="bt_NU_Create">Create</string>
+    <string name="bt_NU_Cancel">Cancel</string>
+    
+    <!-- Add Stock Screen Strings -->
+    <string name="sp_AS_Symbol">Select Symbol</string>
+    <string name="tv_AS_Symbol">Symbol</string>
+    <string name="tv_AS_EnterSymbol">Enter Symbol</string>
+    <string name="tv_AS_Price">Price</string>
+    <string name="tv_AS_EnterPrice">Enter Price</string>
+    <string name="tv_AS_Owned">Is Owned</string>
+    <string name="tv_AS_EnterOwned">Enter Owned</string>
+    <string name="tv_AS_Quantity">Quantity</string>
+    <string name="tv_AS_EnterQuantity">Enter Quantity</string>
+    
+    <!-- Sell Stock Screen Strings -->
+    <string name="sp_RS_Symbol">Select Symbol</string>
+    <string name="tv_RS_Symbol">Symbol</string>
+    <string name="tv_RS_EnterSymbol">Enter Symbol</string>
+    <string name="tv_RS_PurchasePrice">Pur Price</string>
+    <string name="tv_RS_Quantity">Qty Owned</string>
+    <string name="tv_RS_totalValue">Total Value</string>
+    <string name="tv_RS_Profit">Profit</string>
+    <string name="bt_RS_Sell">Sell Now</string>
+    
+    <!-- Commencing definitions of TGGraphiView Activity -->
+    
+    <string name="graphViewTitle">GraphView Title</string>
+    <string name="graph0Title">Graph 0 Title</string>
+    <string name="graph1Title">Graph 1 Title</string>
+    <string name="graphToolOpt0">Opt0</string>
+    <string name="graphToolOpt1">Opt1</string>
+	<string name="graphToolOpt2">Opt2</string>
+	
+	<!--  Definitions of ListView Activity -->
+	
+	<string name="listViewTitle">ListView Title</string>
+	<string name="listViewSymbol">Symbol</string>
+	<string name="listViewFinancialInfo">Financials</string>
+	<string name="listViewSimResults">Sim Results</string>
+	
+	<string name="listViewSymbolChild">Demo</string>
+	<string name="listViewFinancialInfoChild"> 39.39</string>
+	<string name="listViewSimResultsChild"> 30.309</string>
+	
+	<string name="watchListName">WatchList</string>
+	<string name="portfolio">Portfolio</string>
+	
+	<!--  Items to use for the ListView menu -->
+	
+	<string name="addStock">Add Stock</string>
+	<string name="graphStock">Graph</string>
+    
+    <!--  item Click Menu strings -->
+	
+	<string name="graph"> Graph</string>
+	<string name="sim"> Perform Sim</string>
+	<string name="note"> Make Note</string>
+
+
+
+</resources>

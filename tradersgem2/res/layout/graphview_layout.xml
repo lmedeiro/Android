@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideOverlay"
+    
+    
+    >
+
+   
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/graph0Title"
+        android:text="@string/graph0Title"
+        />
+    <LinearLayout 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        
+        >
+        
+         <LinearLayout 
+            android:layout_width="300dip"
+            android:layout_height="200dip"
+            android:orientation="horizontal"
+            android:id="@+id/graph0"
+            
+            />
+        <LinearLayout 
+            	android:layout_width="wrap_content"
+       	 		android:layout_height="wrap_content"
+       	 		android:orientation="horizontal"
+       	 		android:layout_marginLeft="10dip"
+       	 		
+            
+            >
+
+            <Button
+                android:id="@+id/graphToolOpt0"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt0" />
+
+            <Button
+                android:id="@+id/graphToolOpt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt1" />
+
+            <Button
+                android:id="@+id/graphToolOpt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt2" />
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/graph1Title"
+        android:text="@string/graph1Title"
+        />
+    <LinearLayout 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        
+        >
+        
+        <LinearLayout
+            
+            android:layout_width="300dip"
+            android:layout_height="200dip"
+            android:id="@+id/graph1"
+            android:orientation="horizontal"
+            
+            
+            />
+        
+      <LinearLayout 
+            	android:layout_width="wrap_content"
+       	 		android:layout_height="wrap_content"
+       	 		android:orientation="horizontal"
+       	 		android:layout_marginLeft="10dip"
+       	 		
+            
+            >
+
+            <Button
+                android:id="@id/graphToolOpt0"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt0" />
+
+            <Button
+                android:id="@id/graphToolOpt1"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt1" />
+
+            <Button
+                android:id="@id/graphToolOpt2"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/graphToolOpt2" />
+            
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

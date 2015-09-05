@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+	android:orientation="vertical">
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+		<TextView
+        android:text="@string/tv_RS_Symbol"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="left" />
+    
+	    <!-- <EditText 
+	        android:id="@+id/symbolToAdd"
+	        android:textSize="16sp"
+	        android:textColor="#FFFFFF"
+	        
+	        android:hint="@string/tv_AS_EnterSymbol"
+        	
+        	android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:ems="12"
+	        android:inputType="text" /> -->
+	    
+	    <Spinner
+	        android:id="@+id/sp_RS_Symbol"
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:prompt="@string/sp_RS_Symbol"
+	        />
+		
+	</LinearLayout>
+    
+   <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+		<TextView
+        android:text="@string/tv_RS_PurchasePrice"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="left" />
+    
+	    <TextView 
+	        android:id="@+id/tv_RS_PurchasePrice"
+	        android:textSize="16sp"
+	        android:textColor="#FFFFFF"
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:ems="12"
+	    	/>
+		
+	</LinearLayout>
+	
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+		<TextView
+        android:text="@string/tv_RS_Quantity"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="left" />
+    
+	    <TextView 
+	        android:id="@+id/tv_RS_Quantity"
+	        android:textSize="16sp"
+	        android:textColor="#FFFFFF"
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:ems="12" />
+		
+	</LinearLayout>
+	
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+		<TextView
+        android:text="@string/tv_RS_totalValue"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="left" />
+    
+	    <TextView 
+	        android:id="@+id/tv_RS_totalValue"
+	        android:textSize="16sp"
+	        android:textColor="#FFFFFF"
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:ems="12"
+	    	/>
+		
+	</LinearLayout>
+	
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+		<TextView
+        android:text="@string/tv_RS_Profit"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="left" />
+    
+	    <TextView 
+	        android:id="@+id/tv_RS_Profit"
+	        android:textSize="16sp"
+	        android:textColor="#FFFFFF"
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:ems="12"
+	    	/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    <Button
+	        android:id="@+id/bt_RS_Sell"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FFFFFF"
+	        android:text="@string/bt_RS_Sell" />
+	</LinearLayout>
+
+</LinearLayout>

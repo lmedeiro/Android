@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+	android:orientation="vertical" >
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+		<Button        
+	        android:id="@+id/btMyStocks"
+	        android:textColor="#FFFFFF"
+	        
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:text="@string/bt_HM_MyStocks"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	 	<Button        
+	        android:id="@+id/btWatchStocks"
+	        android:textColor="#FFFFFF"
+	        
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:text="@string/bt_HM_WatchStocks"/>
+	 
+	 </LinearLayout>
+	 
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	 	<Button        
+	        android:id="@+id/btBuyStocks"
+	        android:textColor="#FFFFFF"
+	        
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:text="@string/bt_HM_BuyStocks"/>
+	 
+	 </LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+	 	<Button        
+	        android:id="@+id/btSellStocks"
+	        android:textColor="#FFFFFF"
+	        
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:text="@string/bt_HM_SellStocks"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		
+	 	<Button        
+	        android:id="@+id/btStatistics"
+	        android:textColor="#FFFFFF"
+	        
+	        android:layout_weight="3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	    	android:text="@string/bt_HM_Statistics"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>

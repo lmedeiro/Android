@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <!--  Change this layout to table layout ! Structure it as such.  -->
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parent"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        
+        >
+        
+        
+       <TextView 
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:text="@string/watchListName"
+           />
+            
+     
+    <TableLayout 
+        android:id="@+id/setUpRow"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        
+        >
+
+        <TableRow>
+           
+            <TextView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSymbol"
+            	android:text="@string/listViewSymbol"
+            	android:layout_marginLeft="10dip"
+            	
+            />
+        <TextView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewFinancialInfo"
+            	android:text="@string/listViewFinancialInfo"
+            	android:layout_marginLeft="10dip"
+            />
+        <TextView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSimResults"
+            	android:text="@string/listViewSimResults"
+            	android:layout_marginLeft="10dip"
+            />
+            
+        </TableRow>
+        
+   </TableLayout>
+   <TableLayout 
+        android:id="@+id/watchListTable"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:animateLayoutChanges="true"
+    	
+        
+        > 
+        <TableRow >
+            <TextView 
+            	android:layout_width="50dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSymbolChild0"
+            	android:text="@string/listViewSymbolChild"
+            	android:layout_marginLeft="10dip"
+            	
+            />
+        <TextView 
+            	android:layout_width="75dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewFinancialInfoChild1"
+            	android:text="@string/listViewFinancialInfoChild"
+            	android:layout_marginLeft="10dip"
+            />
+        <TextView 
+            	android:layout_width="75dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSimResultsChild2"
+            	android:text="@string/listViewSimResultsChild"
+            	android:layout_marginLeft="10dip"
+            />
+            
+        </TableRow>
+        
+        <TableRow >
+            <TextView 
+            	android:layout_width="50dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSymbolChild3"
+            	android:text="@string/listViewSymbolChild"
+            	android:layout_marginLeft="10dip"
+            	
+            />
+        <TextView 
+            	android:layout_width="75dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewFinancialInfoChild4"
+            	android:text="@string/listViewFinancialInfoChild"
+            	android:layout_marginLeft="10dip"
+            />
+        <TextView 
+            	android:layout_width="75dip"
+            	android:layout_height="30dip"
+            	android:id="@+id/listViewSimResultsChild5"
+            	android:text="@string/listViewSimResultsChild"
+            	android:layout_marginLeft="10dip"
+            />
+            
+        </TableRow>
+        
+        
+    </TableLayout>
+    
+    
+ 
+ 
+ 
+ </LinearLayout>
+    
+    
+    
+
+

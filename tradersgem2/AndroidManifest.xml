@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tradersgem2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tg_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tradersgem2.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="NewUser"></activity>
+        <activity android:name="Home"></activity>
+        <activity android:name="ListView"></activity>
+        <activity 
+            android:name="AddStock"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            	
+            ></activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="TGGraphView"></activity>
+        <activity android:name="ListOfMyStocks"></activity>
+        <activity android:name="ListOfWatchedStocks"></activity>
+        <activity android:name="RemoveStock"></activity>
+        <activity 
+            		android:name="com.tradersgem2.ItemClickMenu"
+            		android:theme="@android:style/Theme.Holo.Dialog"
+            ></activity>
+        
+        <activity 
+           		android:name="com.tradersgem2.AddNote"
+            	android:theme="@android:style/Theme.Holo.Dialog"
+            	
+            ></activity>
+    </application>
+
+</manifest>

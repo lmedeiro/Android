@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/addStockMenuItem"
+        android:title="@string/addStock"
+        android:alphabeticShortcut="a"
+        
+        />
+    
+    <item
+        android:id="@+id/graphMenuItem"
+        android:title="@string/graphStock"
+        android:alphabeticShortcut="g"
+        
+        />
+    
+    
+
+</menu>
